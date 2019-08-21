@@ -7,6 +7,7 @@
 #      ax (an axis object to generate the plot)
 
 def visualize_prob(model, x, y, ax):
+    import numpy as np
     # Use the model to predict probabilities for
     y_pred = model.predict_proba(x)
     
